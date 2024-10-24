@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        nav {
+            background-color: #ffffff;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 20px;
+            position: relative;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li.logo {
+            position: absolute;
+            left: 30px;
+        }
+        nav ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 12px;
+            padding: 20px 10px;
+            transition: color 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            color: #ffab2e; 
+        }
+        nav ul li.logo img {
+            height: 40px;
+            width: auto;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: #373937;
+        }
+
+        p {
+            font-size: 12px;
+            color: #555;
+        }
+        footer {
+            font-size: small;
+        }
+        .footer-content {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 20px;
+        }
+
+        .logo-container {
+            align-items: flex-start; 
+        }
+
+        .footer-logo {
+            height: 30px; 
+            width: auto; 
+            margin-right: 10px;
+        }
+
+        .freedom-text {
+            margin: 0;
+            margin-left: 15px;
+        }
+
+        .copyright {
+            margin: 0;
+        }
+        .divider {
+            display: none; 
+        }
+        </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo">
+                <a href="index.html"><img src="homelogo.jpg" alt="homelogo"></a>
+            </li>
+            <li><a href="prologue.html">PROLOGUE</a></li>
+            <li><a href="trip.html">TRIP</a></li>
+            <li><a href="place.html">PLACE</a></li>
+            <li><a href="episode.html">EPISODE</a></li>
+            <li><a href="hope.html">HOPE</a></li>
+        </ul>
+    </nav>
+
+    <div style="display: flex; align-items: center; justify-content: last baseline; margin-top: 50px;">
+        <img src="episode 01.png" alt="Description of Image" style="width: 50%; height: auto; margin-right: 150px; margin-left: 20px;">
+        <div style="text-align: left; max-width: 40%;">
+            <h3>여행지에서 만난 인연</h3><br><br><br><br>
+            <p>2022년, 오랜만에 혼자 여행을 떠났습니다. 목적지는 전주였습니다.<br>
+                <br><br><br><br>
+                당시 이것저것 걱정이 많았던지라 머리도 식힐 겸 여행 중엔 핸드폰을 최대한 멀리했습니다. <br>
+                그래서 그때 사진이 많이 남아있진 않지만, 대신에 머릿속에 더 선명히 남아 있는 것 같습니다. <br>
+                <br><br><br><br>
+
+                이번 여행은 큰 결심을 하고 혼자 술집을 가게 됩니다. 정말 큰 용기였어요! <br>
+                <br><br><br><br>
+                가게 된 작은 술집에서는 첫번째로 사장님과 이야기를 트게 되었고, <br>
+                두 번째로는 가게 단골 손님인 혜윤 언니와 옆자리에 앉아 이야기를 나누게 되었습니다. <br>
+                우리 셋은 각자의 음악 취향부터 시작해 최근 본 영화, 감명 깊게 읽은 책 등 주로 <br>
+                자신의 취향에 관한 이야기를 나누었습니다. <br>
+                동 트기 직전까지 신나게 이야기를 나누고 우리는 다음을 기약하며 헤어졌습니다. <br>
+                <br><br><br><br>
+                나이도, 성별도, 사는 지역도, 하는 일도 다 달랐지만
+                <br>'취향' 이라는 소재로 연결되었던 그 순간이 정말 신기했습니다. <br><br><br><br>
+                또 다 같이 이야기 나누고 싶네요!</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="logo-container">
+                <img src="homelogo.png" alt="Footer Logo" class="footer-logo">
+                <hr class="divider">
+                <p class="freedom-text">FEEL YOUR FREEDOM</p>
+            </div>
+            <p class="copyright">&copy; 2024 HITORIsenoeyh. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
