@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        nav {
+            background-color: #ffffff;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 20px;
+            position: relative;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li.logo {
+            position: absolute;
+            left: 30px;
+        }
+        nav ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 12px;
+            padding: 20px 10px;
+            transition: color 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            color: #ffab2e; 
+        }
+        nav ul li.logo img {
+            height: 40px;
+            width: auto;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .text-container {
+        margin-left: 50px; 
+        margin-top: 250px;
+        margin-bottom: 200px;
+    }
+
+    .text-container p {
+        text-align: left;
+        font-size: 14px; 
+        color: #333; 
+    }
+    .image-container img {
+        margin-right: 50px;
+        margin-left: 300px;
+        margin-top: 150px;
+        margin-bottom: 200px;
+        max-width: 70%; 
+        height: auto; 
+    }
+        .container {
+            margin-left: 90px;
+            display: flex;
+        }
+        
+
+        h1, h2, h3 {
+            color: #373937;
+        }
+
+        .p {
+            font-size: 12px;
+            color: #555;
+        }
+        /*푸터 영역------*/
+        footer {
+            font-size: small;
+        }
+        .footer-content {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 20px; 
+        }
+
+        .logo-container {
+            align-items: flex-start; 
+        }
+
+        .footer-logo {
+            height: 30px; 
+            width: auto; 
+            margin-right: 10px; 
+        }
+
+        .freedom-text {
+            margin: 0; 
+            margin-left: 15px;
+        }
+
+        .copyright {
+            margin: 0; 
+        }
+        .divider {
+            display: none; 
+        }
+        </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo">
+                <a href="index.html"><img src="homelogo.jpg" alt="homelogo"></a>
+            </li>
+            <li><a href="prologue.html">PROLOGUE</a></li>
+            <li><a href="trip.html">TRIP</a></li>
+            <li><a href="place.html">PLACE</a></li>
+            <li><a href="episode.html">EPISODE</a></li>
+            <li><a href="hope.html">HOPE</a></li>
+        </ul> 
+    </nav>
+    <div class="container">
+        <div class="text-container">
+            <p>Buan</p>
+            <h1>부안</h1> <br>
+            <p>전라북도에 위치한 부안은 사실 제가 잘 모르던 곳이었습니다. <br>
+                그래서 유명한 곳은 어디고, 어떤 게 잘 갖추어진 곳인지 하나하나 <br><br>
+                전부 찾아보는 수밖에 없었습니다.<br>
+                그러한 모든 과정이 귀찮았을 수도 있겠지만 전혀 그러진 않았습니다. <br><br>
+                오히려 내가 모르는,<br>미지의 공간으로 간다는 생각에 한껏 들떠 있었습니다. <br></p>
+        </div>
+        <div class="image-container">
+            <img src="trip_01.png" alt="Description of Image">
+        </div>
+    </div>
+    <div class="container" style="display: flex; align-items: flex-start;  justify-content: flex-start; margin-top: 50px;">
+        <div class="image-container">
+    <img src="trip_02.png" alt="Description of Image" style="max-width: 700px; height: auto; margin-left: 0;">
+    </div>
+    <div class="text-container" style="margin-left: 20px;">
+        <h2>숲속 오두막 같은 부안의 숙소</h2>
+        <p>숙소에 들어서면 편백 나무 향에 기분이 차분해졌습니다. <br>
+            널찍하게 뚫린 창문 밖으로는 초록잎들 너머로 바다가 보였습니다. <br>
+            햇볕에 바짝 말린 듯한 포근한 침구에, 욕실에는 나무 욕조가 있었습니다. <br><br><br>
+            조식으로는 간단하게 blt 샌드위치와 오렌지, 따뜻한 커피 한 잔을 차려주셨습니다. <br>
+            사실 갓 스무살이 되었던 저는 뜨거운 드립 커피를 난생 처음 마셔봤는데, <br>
+            아마 이때부터 커피를 좋아하게 되었던 것 같습니다.</p>
+    </div>
+</div>
+  
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo-container">
+                <img src="homelogo.png" alt="Footer Logo" class="footer-logo">
+                <hr class="divider">
+                <p class="freedom-text">FEEL YOUR FREEDOM</p>
+            </div>
+            <p class="copyright">&copy; 2024 HITORIsenoeyh. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

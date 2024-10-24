@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        nav {
+            background-color: #ffffff;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 20px;
+            position: relative;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li.logo {
+            position: absolute;
+            left: 30px;
+        }
+        nav ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 12px;
+            padding: 20px 10px;
+            transition: color 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            color: #ffab2e;
+        }
+        nav ul li.logo img {
+            height: 40px;
+            width: auto;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .text-container {
+        margin-left: 200px; 
+        margin-top: 250px;
+        margin-bottom: 200px;
+    }
+
+    .text-container p {
+        text-align: left; 
+        font-size: 16px; 
+        color: #333;
+    }
+    .image-container img {
+        margin-right: 100px;
+        margin-left: 180px;
+        margin-top: 90px;
+        margin-bottom: 200px;
+        max-width: 100%; 
+        height: auto; 
+    }
+        .container {
+            margin-left: 100px;
+            display: flex;
+        }
+        
+
+        h1, h2, h3 {
+            color: #373937;
+        }
+
+        .p {
+            font-size: 12px;
+            color: #555;
+        }
+        footer {
+            font-size: small;
+        }
+        .footer-content {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 20px; 
+        }
+
+        .logo-container {
+            align-items: flex-start; 
+        }
+
+        .footer-logo {
+            height: 30px; 
+            width: auto; 
+            margin-right: 10px; 
+        }
+
+        .freedom-text {
+            margin: 0; 
+            margin-left: 15px;
+        }
+
+        .copyright {
+            margin: 0;
+        }
+        .divider {
+            display: none;
+        }
+        </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo">
+                <a href="index.html"><img src="homelogo.jpg" alt="homelogo"></a>
+            </li>
+            <li><a href="prologue.html">PROLOGUE</a></li>
+            <li><a href="trip.html">TRIP</a></li>
+            <li><a href="place.html">PLACE</a></li>
+            <li><a href="episode.html">EPISODE</a></li>
+            <li><a href="hope.html">HOPE</a></li>
+        </ul> 
+    </nav>
+    <div class="container">
+        <div class="text-container">
+            <h2>Why do you like to be alone?</h2> <br>
+            <p style="font-size: 12px;">
+                처음 혼자 여행을 갔을 때, 혼자 영화를 봤을 때, 혼자 카페를 갔을 때, <br>
+                그때 느꼈던 자유로움이 항상 마음에 들었습니다.<br><br><br><br>
+                하나부터 열까지 내가 정하고, 만들어가는 순간순간, <br>
+                사람들에게 둘러싸여 있는 공간에서 빠져 나와 느끼는 한적함.<br>
+                저에게 혼자 있는 시간은 피로를 푸는 시간이 되는 것 같습니다. <br>
+                그리고 나에게 집중을 함으로써 나에 대해 알아 가는 시간도 됩니다.<br>
+                <br><br><br>
+                하지만 혼자 있는 걸 좋아한다고 해서 사람을 싫어하지는 않습니다.<br></p>
+        </div>
+        <div class="image-container">
+            <img src="prologue.png" alt="Description of Image">
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="logo-container">
+                <img src="homelogo.png" alt="Footer Logo" class="footer-logo">
+                <hr class="divider">
+                <p class="freedom-text">FEEL YOUR FREEDOM</p>
+            </div>
+            <p class="copyright">&copy; 2024 HITORIsenoeyh. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
